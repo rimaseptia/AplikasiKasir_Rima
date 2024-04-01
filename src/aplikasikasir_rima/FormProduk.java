@@ -24,6 +24,8 @@ ResultSet rst;
     public FormProduk() {
         initComponents();
         konek = Koneksi.koneksiDB();
+        mulai();
+        updateTabel();
 }
     public void mulai() {
        txtidproduk.setText("");
